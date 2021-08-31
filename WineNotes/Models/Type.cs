@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 
 namespace WineNotes.Models {
     public enum Type {
-
         Red, Rose, White, Fortified, Dessert, Sparkling, Other
     }
 }

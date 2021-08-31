@@ -4,12 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace WineNotes.Models {
-    public class Wine {
+    public class Region {
 
         public int Id { get; set; }
         public string Name { get; set; }
-        public Category Category { get; set; }
-        public Location Location { get; set; }
-        public Appellation Appellation { get; set; } = null;
+        public Village Village { get; set; } = null;
     }
 }

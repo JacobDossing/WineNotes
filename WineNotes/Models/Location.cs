@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace WineNotes.Models {
     public class Location {
+        
+        public int Id { get; set; }
         public string Country { get; set; }
         public string Region { get; set; }
-        public string Appellation { get; set; }
     }
 }
