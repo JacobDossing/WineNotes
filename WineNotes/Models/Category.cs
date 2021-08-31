@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace WineNotes.Models {
-    public class Note {
+    public class Category {
+
+        public int Id { get; set; }
+        public Type Type { get; set; }
     }
 }

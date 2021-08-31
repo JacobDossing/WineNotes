@@ -8,7 +8,7 @@ namespace WineNotes.Models {
 
         public int Id { get; set; }
         public string Name { get; set; }
-
-        public ICollection<Note> Notes { get; set;}
+        public Category Category { get; set; }
+        public Location Location { get; set; }
     }
 }
