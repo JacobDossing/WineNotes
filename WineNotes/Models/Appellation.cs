@@ -13,5 +13,23 @@ namespace WineNotes.Models {
         public Cru Cru { get; set; } = Cru.None;
     }
 
-    public enum Cru { Premier, Grand, None }
+    public enum Cru { Premier=1, Grand=2, None=0 }
+
+    public class Region {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public Village Village { get; set; } = null;
+    }
+
+    public class Village {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public Vineyard Vineyard { get; set; } = null;
+    }
+
+    public class Vineyard {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Climat { get; set; } = null;
+    }
 }

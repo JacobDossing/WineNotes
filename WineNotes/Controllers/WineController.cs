@@ -8,7 +8,7 @@ using WineNotes.Models;
 namespace WineNotes.Controllers {
 
     [Route("api/[controller]")]
-    public class NoteController : ControllerBase {
+    public class WineController : ControllerBase {
 
         [HttpPost]
         public void AddNote(Wine wine, Note note) {
